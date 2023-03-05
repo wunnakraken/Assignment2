@@ -1,0 +1,70 @@
+</head>
+<style>
+.container{
+    width:620px;
+    height:300px;
+    background-color:rgb(20, 226, 24);
+    position:relative;
+
+}
+.box{
+    display: inline-block;
+    width:200px;
+    height:200px;
+    background-color: rgb(185, 21, 29);
+    border: 1px solid black;
+}
+.relative-box{
+    background-color:rgb(21, 207, 223);
+    position:relative;
+    left: 20px;
+    top:20px;
+}
+.absolute-box{
+    background-color:rgb(153, 14, 200);
+    position:absolute;
+    left:20px;
+    top:20px;
+}
+.floatbox{
+    background-color:rgb(112, 21, 239);
+    width:100px;
+    height:98px;
+    border:1px solid rgb(104, 7, 7);
+}
+.float-right-box{
+    float:right;
+}
+</style>
+<body>
+    <h1>Relative Position</h1>
+
+    <div class="container">
+        <div class="box" style="background-size:cover; background-image: url(https://th.bing.com/th/id/OIP.0u6-36MnDkZljeyvCSagSAHaEo?w=255&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7);">Box 1</div>
+        <div class="box" style="background-size:cover; background-image: url(https://th.bing.com/th/id/OIP.0u6-36MnDkZljeyvCSagSAHaEo?w=255&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7);">Box 2</div>
+        <div class="box" style="background-size: cover; background-image: url(https://th.bing.com/th/id/OIP.0u6-36MnDkZljeyvCSagSAHaEo?w=255&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7);">Box 3</div>
+
+    </div>
+    <h1>Absolute Position</h1>
+
+    <div class="container">
+        <div class="box" style="background-size:cover; background-image: url(https://th.bing.com/th/id/OIP.0u6-36MnDkZljeyvCSagSAHaEo?w=255&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7);">Box 1</div>
+        <div class="box absolute-box" style="background-size:cover; background-image: url(https://th.bing.com/th/id/OIP.0u6-36MnDkZljeyvCSagSAHaEo?w=255&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7);">Box 2</div>
+        <div class="box"style="background-size: cover; background-image: url(https://th.bing.com/th/id/OIP.0u6-36MnDkZljeyvCSagSAHaEo?w=255&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7);">Box 3</div>
+        
+
+        </div>
+
+        <h1>Float</h1>
+        <div class="container">
+            
+            <div class=" floatbox float-right-box"style="background-size:cover; background-image: url(https://th.bing.com/th/id/OIP.0u6-36MnDkZljeyvCSagSAHaEo?w=255&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7));">Box 1</div>
+            
+            <div class="floatbox" style="background-size:cover; background-image: url(https://th.bing.com/th/id/OIP.0u6-36MnDkZljeyvCSagSAHaEo?w=255&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7);">Box 2</div>
+            
+            <div class="floatbox"style="background-size: cover; background-image: url(https://th.bing.com/th/id/OIP.0u6-36MnDkZljeyvCSagSAHaEo?w=255&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7);">Box 3</div>
+            
+    
+    </div>
+</body>
+</html>
